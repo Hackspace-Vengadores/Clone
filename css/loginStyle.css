@@ -1,0 +1,136 @@
+    body {
+        background-color: #f7f7f7;
+    }
+    
+    .modal-dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-img {
+        width: 160px;
+        height: 140px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .main-section {
+        display: inline-flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal-content {
+        padding: 0px 0px;
+        box-shadow: 0px 0px 3px #848484; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 347px;
+        height: 280px; 
+    }
+
+    .modal-content.regreso{
+        padding-top: 15px;
+        background-color: #f7f7f7;
+        box-shadow: none;
+        border: none;
+        width: 160px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 190px;
+    }
+    
+    #user-group{
+        padding-top: 28px;
+        padding-bottom: 5px;
+        width: 95%;
+        padding-left: 20px;
+    }
+
+    #contrasena-group{
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 95%;
+        padding-left: 20px;
+    }
+    
+    .form-group::before {
+        font-family: "Font Awesome\ 5 Free";
+        position: absolute;
+        left: 50px;
+        font-size: 22px;
+        padding-top: 32px;
+    }
+    
+    .form-group#user-group::before {
+        content: "\f007";
+        color: #3b3b3b;
+        border: 1px;
+    }
+
+    .form-group#contrasena-group::before {
+        color: #3b3b3b;
+        content: "\f023";
+        border: 1px;
+    }
+
+    .user{
+        padding-right: 140px;
+        font-family: Arial;
+        font-size: 20px;
+    }
+
+    .psw{
+        font-family: Arial;
+        font-size: 20px;
+    }
+
+    
+    .form-control{
+        padding-left: 45px;
+    }
+
+    button {
+        width: 60%;
+        margin: 0px 0 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-success{
+        background-color: rgb(35, 167, 66);
+    }
+
+    button label{
+        font-size: 18px;
+    }
+
+    .forgot {
+        padding: 5px 0;
+    }
+    
+    .forgot a {
+        color: #007bff;
+    }
+
+    .snUser{
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    label{
+        padding: 0;
+        margin: 0%;
+    }
+
+    .snUser a{
+        font-size: 11px;
+    }
+
+    .recuperacion {
+        font-size: 11px;
+        padding-left: 45px;
+    }

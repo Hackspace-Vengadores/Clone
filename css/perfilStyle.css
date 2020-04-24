@@ -1,0 +1,91 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+
+.nav-link {
+    color: rgb(121, 121, 121);
+    border-style: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-link.activo{
+    transition: ease;
+    color: #fcbe00;
+    font-size: 24px;
+    padding-top: 2px;
+}
+
+#Sesion{
+    padding-right: 2px;
+}
+
+.nav-link.activo:hover{
+    color: #fcbe00;
+    font-size: 25px;
+    padding-top: 1px;
+    transition: ease-in;
+}
+
+.nav-link::before{
+    border-style: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-link:hover {
+    transition: ease;
+    color: #fcbe00;
+    font-size: 23px;
+    padding-top: 2px;
+    border-style: none;
+    border: none;
+    border-radius: 0%;
+}
+
+.nav-item{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.nav-item.activo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opciones{
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid #6b6b6b;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.logo-brand {
+    min-width: 100px;
+    max-width: 130px;
+}
+
+#abeja {
+    justify-content: center;
+    height: auto;
+    padding-top: 15px;
+    width: 550px;
+}
+
+#imgabeja {
+    text-align: center;
+    margin-left: 465px;
+    min-height: 300px;
+    min-width: 100px;
+    margin-bottom: 15px;
+}

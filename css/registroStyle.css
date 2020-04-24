@@ -1,0 +1,72 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.main-section {
+    margin: auto;
+    width: 400px;
+    height: 380px;
+}
+
+.modal-dialog{
+    margin-top: 0;
+}
+
+.modal-content{
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    border: none;
+}
+
+.modal-content.regreso{
+    margin-top: 5px;
+}
+
+.logo{
+    padding-top: 30px;
+    width: 230px;
+    height: 130px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-titulo{
+    padding-top: 30px;
+}
+
+.obligatorio{
+    color: red;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.form-check{
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-bottom: 17px;
+}
+
+.form-check label{
+    font-size: 12px;
+}
+
+.form-check a{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.cont{
+   display: flex;
+   align-items: center;
+}
+
+.contenedor-titulo h1{
+    color:#C9C9C9;
+}

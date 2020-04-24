@@ -1,0 +1,83 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: rgb(121, 121, 121);
+    border-style: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-link::before{
+    border-style: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-link:hover {
+    transition: ease;
+    color: #fcbe00;
+    font-size: 23px;
+    padding-top: 2px;
+    border-style: none;
+    border: none;
+    border-radius: 0%;
+}
+
+.nav-item{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.logo-brand {
+    min-width: 100px;
+    max-width: 130px;
+}
+
+#abeja {
+    justify-content: center;
+    height: auto;
+    padding-top: 15px;
+    width: 550px;
+}
+
+#imgabeja {
+    text-align: center;
+    margin-left: 465px;
+    min-height: 300px;
+    min-width: 100px;
+    margin-bottom: 15px;
+}
+
+#container {
+    justify-content: center;
+    height: auto;
+}
+
+#container h1 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#abeja-container{
+    background-color: #f9f9f9;
+}
+
+#container p {
+    font-size: 24px;
+    color: #5a5a5a;
+}
+
+
+#container h1,
+p {
+    text-align: center;
+}
